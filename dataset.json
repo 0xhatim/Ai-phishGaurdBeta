@@ -1,0 +1,422 @@
+[
+    {
+        "name": "Absher (Absher)",
+        "link": "https://absher.sa/",
+        "font": "Arial, sans-serif",
+        "color": "#0069D9",
+        "keywords_ar": [
+            "أبشر",
+            "خدمات إلكترونية",
+            "المواطنون والمقيمون",
+            "الأجانب",
+            "الجوازات"
+        ],
+        "keywords_en": [
+            "Absher",
+            "Electronic Services",
+            "Citizens and Residents",
+            "Foreigners",
+            "Passports"
+        ],
+        "domain_keywords": [
+            "absher",
+            "sa",
+            "gov",
+            "eServices",
+            "citizens",
+            "residents",
+            "foreigners",
+            "passports",
+            "visa",
+            "traffic",
+            "security"
+        ],
+        "image": "[Image of Absher (Absher) logo]"
+    },
+    {
+        "name": "Nitaqat (Nitaqat)",
+        "link": "https://www.my.gov.sa/wps/portal/snp/main",
+        "font": "Georgia, serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "نطاقات",
+            "العاملين الأجانب",
+            "التسجيل",
+            "الكفالة",
+            "التصاريح"
+        ],
+        "keywords_en": [
+            "nitaqat",
+            "foreign workers",
+            "registration",
+            "sponsorship",
+            "permits"
+        ],
+        "domain_keywords": [
+            "my",
+            "gov",
+            "sa",
+            "wps",
+            "portal",
+            "snp",
+            "servicesDirectory",
+            "servicedetails"
+        ],
+        "image": "[Image of Nitaqat (Nitaqat) logo]"
+    },
+    {
+        "name": "MOH (MOH)",
+        "link": "https://www.moh.gov.sa/en",
+        "font": "Courier, monospace",
+        "color": "#000000",
+        "keywords_ar": [
+            "وزارة الصحة",
+            "رعاية صحية",
+            "مستشفيات",
+            "عيادات",
+            "أطباء"
+        ],
+        "keywords_en": [
+            "moh",
+            "healthcare",
+            "hospitals",
+            "clinics",
+            "doctors"
+        ],
+        "domain_keywords": [
+            "moh",
+            "gov",
+            "sa",
+            "en"
+        ],
+        "image": "[Image of MOH (MOH) logo]"
+    },
+    {
+        "name": "MOSA (MOSA)",
+        "link": "https://www.hrsd.gov.sa/en",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "وزارة الشؤون الاجتماعية",
+            "خدمات اجتماعية",
+            "رعاية اجتماعية",
+            "مساعدات",
+            "دعم"
+        ],
+        "keywords_en": [
+            "mosa",
+            "social services",
+            "welfare",
+            "assistance",
+            "support"
+        ],
+        "domain_keywords": [
+            "hrsd",
+            "gov",
+            "sa",
+            "en"
+        ],
+        "image": "[Image of MOSA (MOSA) logo]"
+    },
+    {
+        "name": "Saudi Ports Authority (SPA)",
+        "link": "https://www.spa.gov.sa/en/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "ميناء",
+            "شحن",
+            "نقل",
+            "صادرات",
+            "واردات"
+        ],
+        "keywords_en": [
+            "port",
+            "cargo",
+            "shipping",
+            "exports",
+            "imports"
+        ],
+        "domain_keywords": [
+            "spa",
+            "gov",
+            "sa",
+            "en"
+        ],
+        "image": "[Image of Saudi Ports Authority (SPA)]"
+    },
+    {
+        "name": "Saudi Railways Organization (SRO)",
+        "link": "https://www.sro.gov.sa/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "الخطوط الحديدية",
+            "قطارات",
+            "نقل بري",
+            "بضائع",
+            "ركاب"
+        ],
+        "keywords_en": [
+            "railway",
+            "trains",
+            "land transport",
+            "cargo",
+            "passengers"
+        ],
+        "domain_keywords": [
+            "sro",
+            "gov",
+            "sa"
+        ],
+        "image": "[Image of Saudi Railways Organization (SRO)]"
+    },
+    {
+        "name": "Saudi Cargo Handling Company (SAVIC)",
+        "link": "https://www.savic.com.sa/en/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "بضائع",
+            "مناولة",
+            "شحن",
+            "مطارات",
+            "خدمات لوجستية"
+        ],
+        "keywords_en": [
+            "cargo",
+            "handling",
+            "shipping",
+            "airports",
+            "logistics"
+        ],
+        "domain_keywords": [
+            "savic",
+            "com",
+            "sa",
+            "en"
+        ],
+        "image": "[Image of Saudi Cargo Handling Company (SAVIC)]"
+    },
+    {
+        "name": "Saudi Post",
+        "link": "https://www.saudiapost.gov.sa/en/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "البريد",
+            "الرسائل",
+            "الشحن",
+            "الطرود",
+            "التوصيل"
+        ],
+        "keywords_en": [
+            "post",
+            "mail",
+            "shipping",
+            "parcels",
+            "delivery"
+        ],
+        "domain_keywords": [
+            "saudiapost",
+            "gov",
+            "sa",
+            "en"
+        ],
+        "image": "[Image of Saudi Post]"
+    },
+    {
+        "name": "Ministry of Finance (MOF)",
+        "link": "https://www.mof.gov.sa/en/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "الوزارة المالية",
+            "الموازنة",
+            "الضرائب",
+            "الاستثمارات",
+            "التنمية الاقتصادية"
+        ],
+        "keywords_en": [
+            "ministry of finance",
+            "budget",
+            "taxes",
+            "investments",
+            "economic development"
+        ],
+        "domain_keywords": [
+            "mof",
+            "gov",
+            "sa",
+            "en"
+        ],
+        "image": "[Image of Ministry of Finance (MOF)]"
+    },
+    {
+        "name": "Ministry of Commerce and Investment (MCI)",
+        "link": "https://www.mci.gov.sa/en/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "وزارة التجارة والاستثمار",
+            "رخص تجارية",
+            "لوائح",
+            "فرص استثمارية"
+        ],
+        "keywords_en": [
+            "ministry of commerce and investment",
+            "business licenses",
+            "regulations",
+            "investment opportunities"
+        ],
+        "domain_keywords": [
+            "mci",
+            "gov",
+            "sa",
+            "en"
+        ],
+        "image": "[Image of Ministry of Commerce and Investment (MCI)]"
+    },
+    {
+        "name": "Haramain High Speed Railway (HSR)",
+        "link": "https://sar.hhr.sa/ar/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "قطار الحرمين السريع",
+            "الخطوط الحديدية",
+            "النقل",
+            "رحلات",
+            "حجز"
+        ],
+        "keywords_en": [
+            "Haramain High Speed Railway",
+            "railway",
+            "transport",
+            "trips",
+            "booking"
+        ],
+        "domain_keywords": [
+            "sar",
+            "hhr",
+            "sa",
+            "ar"
+        ],
+        "image": "[Image of Haramain High Speed Railway (HSR)]",
+        "website_colors": {
+            "Hex 0": "#f8fafd",
+            "Hex 1": "#6a708b",
+            "Hex 2": "#c0ccd3",
+            "Hex 3": "#44a5aa",
+            "Hex 4": "#dbdbdb",
+            "Hex 5": "#fee6e3",
+            "Hex 6": "#e0e0e0",
+            "Hex 7": "#f08080",
+            "Hex 8": "#fbf9ee",
+            "Hex 9": "#dadada"
+        }
+    },
+    {
+        "name": "Haramain High Speed Railway (HSR) Tickets",
+        "link": "https://tickets.sar.com.sa/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "حجز تذاكر قطار الحرمين السريع",
+            "الخطوط الحديدية",
+            "النقل",
+            "رحلات",
+            "حجز"
+        ],
+        "keywords_en": [
+            "Booking Haramain High Speed Railway Tickets",
+            "railway",
+            "transport",
+            "trips",
+            "booking"
+        ],
+        "domain_keywords": [
+            "tickets",
+            "sar",
+            "sa",
+            "ar"
+        ],
+        "image": "[Image of Haramain High Speed Railway (HSR) Tickets]",
+        "website_colors": {
+            "Hex 0": "#569ff7",
+            "Hex 1": "#fef2f2",
+            "Hex 2": "#e6f1f3",
+            "Hex 3": "#00778b",
+            "Hex 4": "#1a3876",
+            "Hex 5": "#000000",
+            "Hex 6": "#e6e6e6",
+            "Hex 7": "#959ea9",
+            "Hex 8": "#f64747",
+            "Hex 9": "#393939"
+        }
+    },
+    {
+        "name": "Haramain High Speed Railway (HSR) Website",
+        "link": "https://www.sar.com.sa/",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "موقع قطار الحرمين السريع",
+            "الخطوط الحديدية",
+            "النقل",
+            "رحلات",
+            "حجز"
+        ],
+        "keywords_en": [
+            "Haramain High Speed Railway Website",
+            "railway",
+            "transport",
+            "trips",
+            "booking"
+        ],
+        "domain_keywords": [
+            "sar",
+            "sa",
+            "ar"
+        ],
+        "image": "[Image of Haramain High Speed Railway (HSR) Website]",
+        "website_colors": {
+            "Hex 0": "#cc0000",
+            "Hex 1": "#000000",
+            "Hex 2": "#555555",
+            "Hex 3": "#4878c8",
+            "Hex 4": "#381808",
+            "Hex 5": "#388898",
+            "Hex 6": "#a8a8a8",
+            "Hex 7": "#20b038",
+            "Hex 8": "#60d66a",
+            "Hex 9": "#eeeeee"
+        }
+    },
+    {
+        "name": "Saudia",
+        "link": "https://www.saudia.com/ar-SA",
+        "font": "Trebuchet MS, sans-serif",
+        "color": "#000000",
+        "keywords_ar": [
+            "الخطوط السعودية",
+            "رحلات",
+            "السفر",
+            "حجز",
+            "معلومات الرحلات"
+        ],
+        "keywords_en": [
+            "Saudia",
+            "Flights",
+            "Travel",
+            "Booking",
+            "Flight information"
+        ],
+        "domain_keywords": [
+            "Saudia",
+            "sa",
+            "en"
+        ],
+        "image": "[Image of Saudia website]"
+    }
+]
