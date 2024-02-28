@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+    body {
+        background-color: #f8f9fa; /* Light grey background */
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Header styles */
+    header {
+        background-color: #4F4BE5; /* Main color for the header */
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    /* Main section styles */
+    section {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Button styles */
+    .btn-main {
+        background-color: #4F4BE5;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-main:hover {
+        background-color: #3736cc;
+        color: white;
+    }
+
+    /* Rating styles */
+    .rating-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .rating-stars {
+        color: #4F4BE5;
+        font-size: 24px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    .rating-stars:hover,
+    .rating-stars.active {
+        color: #3736cc;
+    }
+
+    
+</style>
+
+<link rel="stylesheet" href="popup_styles.css">
+
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+        <img src="images/spyware_main.png" alt="Logo" class="logo">
+        <div class="settings-icon" id="settingsIcon">
+            <i class="fas fa-cogs"></i>
+        </div>
+    </div>
+
+    <!-- Blacklist Database Section -->
+    <section>
+        
+              <div class="text-center">
+                <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl" id="title">Feeling Sus ?🤔</h1>
+                <p id="statusText" class="mt-6 text-lg leading-5 text-gray-600"><span class="bold-text" id="domainPlaceholder"></span></p>
+                <div class="mt-10 flex items-center justify-center gap-x-6" id="prescan">
+                  <a href="#" id="analysisButton" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Run Analysis</a>
+                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Report Phising Page<span aria-hidden="true">→</span></a>
+                </div>
+                <div class="center-container" id="switch_item">
+                    <div class="checkbox-wrapper-35">
+                        <input value="private" name="switch" id="switch" type="checkbox" class="switch">
+                        <label for="switch">
+                            <span class="switch-x-text">Real-Time Protection is</span>
+                            <span class="switch-x-toggletext">
+                                <span class="switch-x-unchecked"><span class="switch-x-hiddenlabel">Unchecked: </span>Off</span>
+                                <span class="switch-x-checked"><span class="switch-x-hiddenlabel">Checked: </span>On</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+       
+           
+    </section>
+  
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>

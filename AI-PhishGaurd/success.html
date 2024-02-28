@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="popup_styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+ 
+
+    /* Header styles */
+    header {
+        background-color: #4F4BE5; /* Main color for the header */
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    /* Main section styles */
+    section {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Button styles */
+    .btn-main {
+        background-color: #4F4BE5;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-main:hover {
+        background-color: #3736cc;
+        color: white;
+    }
+
+    /* Rating styles */
+    .rating-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .rating-stars {
+        color: #4F4BE5;
+        font-size: 24px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    .rating-stars:hover,
+    .rating-stars.active {
+        color: #3736cc;
+    }
+</style>
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+        <img src="images/spyware_main.png" alt="Logo" class="logo">
+        <div class="settings-icon" id="settingsIcon">
+            <i class="fas fa-cogs"></i>
+        </div>
+    </div>
+
+    <!-- Blacklist Database Section -->
+    <section>
+     
+            <div class="card-success">
+               <!-- <button class="dismiss-success" type="button">×</button>-->
+                <div class="header-success">
+                    <div class="image-success">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 7L9.00004 18L3.99994 13" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </div> 
+                    <div class="content-success">
+                        <span class="title-success">Website Verified & Secure</span> 
+                        <p class="message-success">Good news! The website <span class="bold-text" id="domainPlaceholder"></span> has been thoroughly scanned and deemed secure. Rest assured, your digital safety is confirmed.</p> 
+                    </div> 
+                    <div class="actions-success">
+                        <button class="history-success" type="button">View Security Report</button> 
+                        <button class="track-success" type="button">Explore Site Details</button> 
+                    </div> 
+                </div> 
+            </div>
+        
+        
+
+    </section>
+
+    <!-- Rate This Site Section -->
+
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "AI-PhishGuard: Machine-Learning-Powered Phishing Detection & Alert ",
+    "version": "1.0",
+    "description": "AI-PhishGuard goes beyond conventional cybersecurity measures, offering a dynamic, intelligent, and collaborative defense against phishing attacks. By combining the power of machine learning with user-driven insights, it creates a resilient shield that evolves with the ever-changing landscape of online threats.",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "images/a2rw6-h4ebs-001.png",
+            "48": "images/a2rw6-h4ebs-002.png",
+            "128": "images/a2rw6-h4ebs-003.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content_script.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "16": "images/a2rw6-h4ebs-001.png",
+        "48": "images/a2rw6-h4ebs-002.png",
+        "128": "images/a2rw6-h4ebs-003.png"
+    }
+}

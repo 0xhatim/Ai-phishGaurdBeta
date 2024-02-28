@@ -1,0 +1,49 @@
+/* CSS HEX */
+--cardinal: #C03141ff;
+--royal-blue-traditional: #152F72ff;
+--ultra-violet: #4C4A76ff;
+--penn-blue: #00003Cff;
+--cool-gray: #848DABff;
+
+/* CSS HSL */
+--cardinal: hsla(353, 59%, 47%, 1);
+--royal-blue-traditional: hsla(223, 69%, 26%, 1);
+--ultra-violet: hsla(243, 23%, 38%, 1);
+--penn-blue: hsla(240, 100%, 12%, 1);
+--cool-gray: hsla(226, 19%, 59%, 1);
+
+/* SCSS HEX */
+$cardinal: #C03141ff;
+$royal-blue-traditional: #152F72ff;
+$ultra-violet: #4C4A76ff;
+$penn-blue: #00003Cff;
+$cool-gray: #848DABff;
+
+/* SCSS HSL */
+$cardinal: hsla(353, 59%, 47%, 1);
+$royal-blue-traditional: hsla(223, 69%, 26%, 1);
+$ultra-violet: hsla(243, 23%, 38%, 1);
+$penn-blue: hsla(240, 100%, 12%, 1);
+$cool-gray: hsla(226, 19%, 59%, 1);
+
+/* SCSS RGB */
+$cardinal: rgba(192, 49, 65, 1);
+$royal-blue-traditional: rgba(21, 47, 114, 1);
+$ultra-violet: rgba(76, 74, 118, 1);
+$penn-blue: rgba(0, 0, 60, 1);
+$cool-gray: rgba(132, 141, 171, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+$gradient-right: linear-gradient(90deg, #C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+$gradient-bottom: linear-gradient(180deg, #C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+$gradient-left: linear-gradient(270deg, #C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+$gradient-top-right: linear-gradient(45deg, #C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+$gradient-bottom-right: linear-gradient(135deg, #C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+$gradient-top-left: linear-gradient(225deg, #C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+$gradient-bottom-left: linear-gradient(315deg, #C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+$gradient-radial: radial-gradient(#C03141ff, #152F72ff, #4C4A76ff, #00003Cff, #848DABff);
+
+
+
+ <img src="images/spyware_main.png" alt="Logo" class="logo">

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="popup_styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+ 
+
+    /* Header styles */
+    header {
+        background-color: #4F4BE5; /* Main color for the header */
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    /* Main section styles */
+    section {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Button styles */
+    .btn-main {
+        background-color: #4F4BE5;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-main:hover {
+        background-color: #3736cc;
+        color: white;
+    }
+
+    /* Rating styles */
+    .rating-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .rating-stars {
+        color: #4F4BE5;
+        font-size: 24px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    .rating-stars:hover,
+    .rating-stars.active {
+        color: #3736cc;
+    }
+</style>
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+        <img src="images/spyware_main.png" alt="Logo" class="logo">
+        <div class="settings-icon" id="settingsIcon">
+            <i class="fas fa-cogs"></i>
+        </div>
+    </div>
+
+    <!-- Blacklist Database Section -->
+    <section>
+     
+            <div class="card-danger">
+              <div class="header-danger">
+                <div class="image-danger">
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" stroke-linejoin="round" stroke-linecap="round"></path>
+                      </svg>
+                </div> 
+                <div class="content-danger">
+                  <span class="title-danger">⚠️ Caution: Security Risk Detected!</span> 
+                  <p class="message-danger">
+                    Alert! <span class="bold-text" id="domainPlaceholder"></span> has been flagged for potential security risks. Protect your data and devices. Proceed with caution.
+                  </p> 
+                </div> 
+                <div class="actions-danger">
+                  <button class="desactivate-danger" type="button">Block Page</button> 
+                  <button class="cancel-danger" type="button">Report This Page</button> 
+                </div> 
+              </div> 
+            </div>
+          
+          
+        
+
+    </section>
+
+    <!-- Rate This Site Section -->
+
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
