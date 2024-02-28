@@ -1,5 +1,5 @@
 # AI-PhishGuard: Machine-Learning-Powered Phishing Detection & Alert Suite
-![AI-PhishGaurd]([https://example.com/phishing_example.png](https://imgur.com/G2eKvW7.png))
+![Project Beta](https://i.imgur.com/G2eKvW7.png)
 
 ## Overview
 AI-PhishGuard is an advanced solution designed to combat the growing threat of phishing attacks. By harnessing the power of machine learning algorithms, our system offers real-time identification and alerting of phishing URLs. With a browser extension seamlessly integrated into users' browsing experience and a web dashboard for comprehensive monitoring, AI-PhishGuard provides a robust defense against online threats.
